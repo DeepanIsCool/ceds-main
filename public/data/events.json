@@ -1,0 +1,268 @@
+[
+  {
+    "id": 1,
+    "title": "International Conference on Data Science and AI",
+    "type": "conference",
+    "date": "March 15-17, 2024",
+    "time": "",
+    "location": "IEMCEDS Campus, Kolkata",
+    "description": "A three-day international conference bringing together researchers, industry experts, and students to discuss the latest advances in data science and artificial intelligence.",
+    "speakers": [
+      "Prof. Dr. Sunita Sarawagi (IIT Bombay)",
+      "Dr. Rajeev Rastogi (Amazon)",
+      "Prof. Dr. Manish Gupta (Microsoft Research)",
+      "Dr. Ananya Chakraborty (IEMCEDS)"
+    ],
+    "registrationUrl": "",
+    "capacity": 0,
+    "registeredCount": 0,
+    "prerequisites": [],
+    "attendees": 350,
+    "outcomes": [
+      "25 research papers presented",
+      "3 industry partnerships established",
+      "Student research showcase with 50 participants",
+      "Published conference proceedings"
+    ],
+    "status": "past",
+    "image": "/images/events/data-science-ai-conference.png"
+  },
+  {
+    "id": 2,
+    "title": "Machine Learning Workshop for Healthcare Professionals",
+    "type": "workshop",
+    "date": "January 20-21, 2024",
+    "time": "",
+    "location": "Medical College Auditorium, Kolkata",
+    "description": "Hands-on workshop designed to introduce healthcare professionals to machine learning applications in medical diagnosis and treatment.",
+    "speakers": [
+      "Dr. Rajesh Kumar (IEMCEDS)",
+      "Dr. Amit Patel (IEMCEDS)",
+      "Dr. Sarah Johnson (Johns Hopkins)",
+      "Dr. Ravi Mehta (AIIMS Delhi)"
+    ],
+    "registrationUrl": "",
+    "capacity": 0,
+    "registeredCount": 0,
+    "prerequisites": [],
+    "attendees": 120,
+    "outcomes": [
+      "Trained 120 healthcare professionals",
+      "Developed 5 prototype diagnostic tools",
+      "Established collaboration with 3 hospitals",
+      "Created online resource portal"
+    ],
+    "status": "past",
+    "image": "/images/events/ml-healthcare-workshop.png"
+  },
+  {
+    "id": 3,
+    "title": "Natural Language Processing Seminar Series",
+    "type": "seminar",
+    "date": "November 10, 2023",
+    "time": "",
+    "location": "IEMCEDS Seminar Hall",
+    "description": "Monthly seminar series focusing on recent advances in natural language processing and its applications in Indian languages.",
+    "speakers": [
+      "Dr. Priya Sharma (IEMCEDS)",
+      "Prof. Pushpak Bhattacharyya (IIT Bombay)",
+      "Dr. Monojit Choudhury (Microsoft Research)"
+    ],
+    "registrationUrl": "",
+    "capacity": 0,
+    "registeredCount": 0,
+    "prerequisites": [],
+    "attendees": 80,
+    "outcomes": [
+      "Launched multilingual NLP toolkit",
+      "Initiated collaboration with 5 universities",
+      "Published research roadmap",
+      "Started monthly NLP meetup"
+    ],
+    "status": "past",
+    "image": "/images/events/nlp-seminar-series.png"
+  },
+  {
+    "id": 4,
+    "title": "AI Ethics and Society Webinar",
+    "type": "webinar",
+    "date": "September 5, 2023",
+    "time": "",
+    "location": "Online (Zoom)",
+    "description": "Virtual discussion on the ethical implications of AI technology and its impact on society, featuring experts from academia and industry.",
+    "speakers": [
+      "Dr. Priya Sharma (IEMCEDS)",
+      "Prof. Cathy O'Neil (Author, Weapons of Math Destruction)",
+      "Dr. Timnit Gebru (DAIR Institute)",
+      "Prof. Arvind Narayanan (Princeton University)"
+    ],
+    "registrationUrl": "",
+    "capacity": 0,
+    "registeredCount": 0,
+    "prerequisites": [],
+    "attendees": 500,
+    "outcomes": [
+      "Developed AI ethics guidelines",
+      "Created online ethics course",
+      "Established ethics review board",
+      "Published white paper on AI governance"
+    ],
+    "status": "past",
+    "image": "/images/events/ai-ethics-webinar.png"
+  },
+  {
+    "id": 5,
+    "title": "Student Research Symposium 2023",
+    "type": "conference",
+    "date": "August 25-26, 2023",
+    "time": "",
+    "location": "IEMCEDS Campus",
+    "description": "Annual symposium showcasing research work by students and early-career researchers in data science and related fields.",
+    "speakers": [
+      "Student Researchers from IEMCEDS",
+      "Dr. Vikram Singh (IEMCEDS)",
+      "Industry Mentors",
+      "Alumni Researchers"
+    ],
+    "registrationUrl": "",
+    "capacity": 0,
+    "registeredCount": 0,
+    "prerequisites": [],
+    "attendees": 200,
+    "outcomes": [
+      "40 student presentations",
+      "Best paper awards to 5 students",
+      "10 industry internship offers",
+      "Research collaboration opportunities"
+    ],
+    "status": "past",
+    "image": "/images/events/student-research-symposium.png"
+  },
+  {
+    "id": 6,
+    "title": "Big Data Analytics Workshop",
+    "type": "workshop",
+    "date": "June 12-14, 2023",
+    "time": "",
+    "location": "IEMCEDS Computer Lab",
+    "description": "Intensive three-day workshop on big data technologies, tools, and analytics techniques for industry professionals and researchers.",
+    "speakers": [
+      "Dr. Sneha Gupta (IEMCEDS)",
+      "Karthik Reddy (IEMCEDS)",
+      "Industry Experts from TCS and Infosys"
+    ],
+    "registrationUrl": "",
+    "capacity": 0,
+    "registeredCount": 0,
+    "prerequisites": [],
+    "attendees": 60,
+    "outcomes": [
+      "Hands-on training on Hadoop and Spark",
+      "Real-world case study implementations",
+      "Industry certification for participants",
+      "Follow-up advanced course launched"
+    ],
+    "status": "past",
+    "image": "/images/events/big-data-workshop.png"
+  },
+  {
+    "id": 7,
+    "title": "Quantum Computing and AI Workshop",
+    "type": "workshop",
+    "date": "December 15-16, 2024",
+    "time": "9:00 AM - 5:00 PM",
+    "location": "IEMCEDS Advanced Computing Lab",
+    "description": "Explore the intersection of quantum computing and artificial intelligence. Learn about quantum algorithms, quantum machine learning, and hands-on programming with quantum simulators.",
+    "speakers": [
+      "Dr. Vikram Singh (IEMCEDS)",
+      "Prof. Peter Shor (MIT)",
+      "Dr. Maria Schuld (Xanadu)",
+      "Dr. Rajesh Kumar (IEMCEDS)"
+    ],
+    "registrationUrl": "https://events.iemceds.edu/quantum-ai-workshop",
+    "capacity": 50,
+    "registeredCount": 35,
+    "prerequisites": [
+      "Basic knowledge of linear algebra",
+      "Programming experience in Python",
+      "Understanding of machine learning concepts"
+    ],
+    "attendees": 0,
+    "outcomes": [],
+    "status": "upcoming",
+    "image": "/images/events/quantum-computing-ai-workshop.png"
+  },
+  {
+    "id": 8,
+    "title": "AI for Climate Change Solutions Seminar",
+    "type": "seminar",
+    "date": "January 20, 2025",
+    "time": "2:00 PM - 5:00 PM",
+    "location": "IEMCEDS Main Auditorium",
+    "description": "Discover how artificial intelligence is being used to address climate change challenges, from prediction models to sustainable technology solutions.",
+    "speakers": [
+      "Dr. Amit Patel (IEMCEDS)",
+      "Prof. David Rolnick (McGill University)",
+      "Dr. Priya Donti (Climate Change AI)",
+      "Karthik Reddy (IEMCEDS)"
+    ],
+    "registrationUrl": "https://events.iemceds.edu/ai-climate-seminar",
+    "capacity": 200,
+    "registeredCount": 145,
+    "prerequisites": [],
+    "attendees": 0,
+    "outcomes": [],
+    "status": "upcoming",
+    "image": "/images/events/ai-climate-seminar.png"
+  },
+  {
+    "id": 9,
+    "title": "Healthcare AI Innovation Conference 2025",
+    "type": "conference",
+    "date": "February 28 - March 2, 2025",
+    "time": "9:00 AM - 6:00 PM (All days)",
+    "location": "IEMCEDS Campus & Virtual Hybrid",
+    "description": "Three-day international conference focusing on AI innovations in healthcare, featuring keynotes, research presentations, and industry showcases.",
+    "speakers": [
+      "Dr. Rajesh Kumar (IEMCEDS)",
+      "Prof. Regina Barzilay (MIT)",
+      "Dr. Eric Topol (Scripps Research)",
+      "Dr. Fei-Fei Li (Stanford University)",
+      "Industry Leaders from Google Health, IBM Watson"
+    ],
+    "registrationUrl": "https://events.iemceds.edu/healthcare-ai-2025",
+    "capacity": 400,
+    "registeredCount": 180,
+    "prerequisites": [
+      "Background in healthcare or AI/ML",
+      "Research or industry experience preferred"
+    ],
+    "attendees": 0,
+    "outcomes": [],
+    "status": "upcoming",
+    "image": "/images/events/healthcare-ai-conference.png"
+  },
+  {
+    "id": 10,
+    "title": "Federated Learning and Privacy Webinar",
+    "type": "webinar",
+    "date": "March 15, 2025",
+    "time": "3:00 PM - 4:30 PM IST",
+    "location": "Online (Zoom)",
+    "description": "Learn about federated learning techniques for privacy-preserving machine learning, with practical examples and implementation strategies.",
+    "speakers": [
+      "Dr. Priya Sharma (IEMCEDS)",
+      "Prof. Peter Kairouz (Google Research)",
+      "Dr. Virginia Smith (CMU)",
+      "Priyanka Singh (IEMCEDS)"
+    ],
+    "registrationUrl": "https://events.iemceds.edu/federated-learning-webinar",
+    "capacity": 1000,
+    "registeredCount": 650,
+    "prerequisites": [],
+    "attendees": 0,
+    "outcomes": [],
+    "status": "upcoming",
+    "image": "/images/events/federated-learning-webinar.png"
+  }
+]

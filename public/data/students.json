@@ -1,0 +1,112 @@
+[
+  {
+    "id": 1,
+    "name": "Arjun Sharma",
+    "year": "3rd Year",
+    "branch": "PhD in Data Science",
+    "researchArea": "Computer Vision for Medical Imaging",
+    "email": "arjun.sharma@student.iemceds.edu",
+    "contact": "",
+    "image": "/images/members/arjun-sharma.jpg",
+    "status": "member"
+  },
+  {
+    "id": 2,
+    "name": "Priyanka Singh",
+    "year": "2nd Year",
+    "branch": "M.Tech Data Science",
+    "researchArea": "Sentiment Analysis in Social Media",
+    "email": "priyanka.singh@student.iemceds.edu",
+    "contact": "",
+    "image": "/images/members/priyanka-singh.jpg",
+    "status": "member"
+  },
+  {
+    "id": 3,
+    "name": "Rohit Kumar",
+    "year": "4th Year",
+    "branch": "PhD in AI",
+    "researchArea": "Multi-Agent Systems",
+    "email": "rohit.kumar@student.iemceds.edu",
+    "contact": "",
+    "image": "/images/members/rohit-kumar.jpg",
+    "status": "member"
+  },
+  {
+    "id": 4,
+    "name": "Anita Patel",
+    "year": "1st Year",
+    "branch": "M.Tech AI",
+    "researchArea": "Predictive Analytics in Healthcare",
+    "email": "anita.patel@student.iemceds.edu",
+    "contact": "",
+    "image": "/images/members/anita-patel.jpg",
+    "status": "member"
+  },
+  {
+    "id": 5,
+    "name": "Karthik Reddy",
+    "year": "2nd Year",
+    "branch": "PhD in Data Science",
+    "researchArea": "Real-time Stream Processing",
+    "email": "karthik.reddy@student.iemceds.edu",
+    "contact": "",
+    "image": "/images/members/karthik-reddy.jpg",
+    "status": "member"
+  },
+  {
+    "id": 6,
+    "name": "Neha Gupta",
+    "year": "2nd Year",
+    "branch": "M.Tech Data Science",
+    "researchArea": "Pattern Recognition in Financial Data",
+    "email": "neha.gupta@student.iemceds.edu",
+    "contact": "",
+    "image": "/images/members/neha-gupta.jpg",
+    "status": "member"
+  },
+  {
+    "id": 7,
+    "name": "Siddharth Jain",
+    "year": "Intern",
+    "branch": "IIT Delhi",
+    "researchArea": "Automated Text Summarization using Transformers",
+    "email": "siddharth.jain@intern.iemceds.edu",
+    "contact": "",
+    "image": "/images/interns/siddharth-jain.jpg",
+    "status": "intern"
+  },
+  {
+    "id": 8,
+    "name": "Riya Agarwal",
+    "year": "Intern",
+    "branch": "NIT Trichy",
+    "researchArea": "Image Classification for Agricultural Applications",
+    "email": "riya.agarwal@intern.iemceds.edu",
+    "contact": "",
+    "image": "/images/interns/riya-agarwal.jpg",
+    "status": "intern"
+  },
+  {
+    "id": 9,
+    "name": "Vikash Singh",
+    "year": "Intern",
+    "branch": "BITS Pilani",
+    "researchArea": "Recommendation Systems for E-commerce",
+    "email": "vikash.singh@intern.iemceds.edu",
+    "contact": "",
+    "image": "/images/interns/vikash-singh.jpg",
+    "status": "intern"
+  },
+  {
+    "id": 10,
+    "name": "Shreya Nair",
+    "year": "Intern",
+    "branch": "Anna University",
+    "researchArea": "Fraud Detection in Financial Transactions",
+    "email": "shreya.nair@intern.iemceds.edu",
+    "contact": "",
+    "image": "/images/interns/shreya-nair.jpg",
+    "status": "intern"
+  }
+]

@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "name": "Dr. Somenath Kuiry",
+    "email": "somenath.kuiry@iem.edu.in",
+    "contact": "7478476819",
+    "linkedin": "",
+    "expertise": "Deep Learning, Quantum Computing",
+    "status": "mentor",
+    "image": "/data/images/self - Somenath kuiry.png"
+  },
+  {
+    "id": 2,
+    "name": "Manjarini Mallik",
+    "email": "Manjarini.Mallik@iem.edu.in",
+    "contact": "8583973399",
+    "linkedin": "https://in.linkedin.com/in/manjarini-mallik-29011b22b",
+    "expertise": "Machine Learning, Deep Learning, Indoor Localization, Natural Language Processing",
+    "status": "mentor",
+    "image": "/data/images/Manjarini - Manjarini Mallik.png"
+  },
+  {
+    "id": 3,
+    "name": "SAUGATA GHOSH",
+    "email": "saugata.ghosh@iem.edu.in",
+    "contact": "8017024589",
+    "linkedin": "www.linkedin.com/in/saugataghosh1976",
+    "expertise": "FINANCE",
+    "status": "mentor",
+    "image": "/data/images/SAUGATA GHOSH .JPG - Saugata Ghosh.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Subhadip Chandra",
+    "email": "subhadip.chandra@iem.edu.in",
+    "contact": "9332235642",
+    "linkedin": "https://www.linkedin.com/in/subhadip-chandra-17b82592/",
+    "expertise": "Computer Vision, ADAS",
+    "status": "mentor",
+    "image": "/data/images/g12169sc (2) - subhadip chandra.jpg"
+  }
+]

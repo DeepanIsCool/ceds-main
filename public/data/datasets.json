@@ -1,0 +1,86 @@
+[
+  {
+    "id": 1,
+    "name": "Indian Healthcare Records Dataset",
+    "type": "public",
+    "description": "Anonymized healthcare records from Indian hospitals for medical research and AI model development.",
+    "size": "2.5 GB",
+    "format": "CSV, JSON",
+    "domain": "Healthcare",
+    "lastUpdated": "March 2024",
+    "downloadUrl": "/datasets/indian-healthcare-records.zip",
+    "image": "/images/datasets/healthcare-records.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Multi-lingual Indian Text Corpus",
+    "type": "public",
+    "description": "Large corpus of text data in 10 Indian languages for NLP research and model training.",
+    "size": "15 GB",
+    "format": "TXT, JSON",
+    "domain": "Natural Language Processing",
+    "lastUpdated": "February 2024",
+    "downloadUrl": "/datasets/multilingual-indian-corpus.zip",
+    "image": "/images/datasets/multilingual-corpus.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Agricultural Crop Images Dataset",
+    "type": "public",
+    "description": "High-resolution images of various crops at different growth stages for computer vision applications.",
+    "size": "8.2 GB",
+    "format": "JPG, PNG with annotations",
+    "domain": "Agriculture",
+    "lastUpdated": "January 2024",
+    "downloadUrl": "/datasets/agricultural-crop-images.zip",
+    "image": "/images/datasets/agricultural-crops.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Financial Transaction Patterns",
+    "type": "private",
+    "description": "Anonymized financial transaction data for fraud detection and risk analysis research.",
+    "size": "5.8 GB",
+    "format": "CSV, Parquet",
+    "domain": "Finance",
+    "lastUpdated": "April 2024",
+    "accessRequirement": "Research collaboration agreement required",
+    "image": "/images/datasets/financial-transactions.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Smart City IoT Sensor Data",
+    "type": "private",
+    "description": "Real-time sensor data from smart city infrastructure including traffic, air quality, and energy consumption.",
+    "size": "12 GB",
+    "format": "Time-series JSON",
+    "domain": "Smart Cities",
+    "lastUpdated": "March 2024",
+    "accessRequirement": "Government partnership required",
+    "image": "/images/datasets/smart-city-iot.jpg"
+  },
+  {
+    "id": 6,
+    "name": "Indian Climate Data Archive",
+    "type": "public",
+    "description": "Historical climate data from meteorological stations across India spanning 50+ years.",
+    "size": "3.1 GB",
+    "format": "NetCDF, CSV",
+    "domain": "Climate Science",
+    "lastUpdated": "February 2024",
+    "downloadUrl": "/datasets/indian-climate-archive.zip",
+    "image": "/images/datasets/climate-data.jpg"
+  },
+  {
+    "id": 7,
+    "name": "Biomedical Research Dataset",
+    "type": "private",
+    "description": "Genomic and proteomic data for drug discovery and personalized medicine research.",
+    "size": "25 GB",
+    "format": "FASTA, VCF, CSV",
+    "domain": "Biomedical",
+    "lastUpdated": "April 2024",
+    "accessRequirement": "IRB approval and data use agreement required",
+    "image": "/images/datasets/biomedical-research.jpg"
+  }
+]
