@@ -5,7 +5,6 @@ import ResearchAreas from '@/components/sections/research-areas'
 import FacilityHighlights from '@/components/sections/facility-highlights'
 import Stats from '@/components/sections/stats'
 import MentorsPreview from '@/components/sections/mentors-preview'
-import LeadershipTeam from '@/components/sections/leadership-team'
 import CtaSection from '@/components/sections/cta-section'
 
 export default function Home() {
@@ -15,10 +14,8 @@ export default function Home() {
       <AnnouncementTicker />
       <AboutCeds />
       <ResearchAreas />
-      <FacilityHighlights />
       <Stats />
-      <MentorsPreview />
-      <LeadershipTeam />
+      <FacilityHighlights />
       <CtaSection />
     </>
   )

@@ -63,11 +63,11 @@ export default function ResearchAreas() {
         </div>
 
         {/* Card grid */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5 stagger-children">
+        <div className="flex flex-wrap justify-center gap-5 stagger-children">
           {areas.map((area) => (
             <div
               key={area.title}
-              className="p-7 rounded-2xl border border-white bg-white group cursor-default transition-all duration-300 hover:shadow-xl hover:-translate-y-1 reveal"
+              className="w-full sm:w-[calc(50%-10px)] lg:w-[calc(33.333%-13.33px)] p-7 rounded-2xl border border-white bg-white group cursor-default transition-all duration-300 hover:shadow-xl hover:-translate-y-1 reveal text-left"
             >
               <div
                 className="w-12 h-12 rounded-xl flex items-center justify-center mb-6 transition-transform duration-300 group-hover:scale-110"

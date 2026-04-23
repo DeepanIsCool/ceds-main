@@ -91,9 +91,9 @@ export default function AboutPage() {
               The guiding principles that drive our work forward.
             </p>
           </div>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 stagger-children">
+          <div className="flex flex-wrap justify-center gap-6 stagger-children">
             {objectives.map((obj) => (
-              <div key={obj.title} className="p-7 rounded-2xl bg-white border border-gray-100 card-hover">
+              <div key={obj.title} className="w-full md:w-[calc(50%-12px)] lg:w-[calc(33.333%-16px)] p-7 rounded-2xl bg-white border border-gray-100 card-hover text-left">
                 <div className="w-11 h-11 rounded-xl bg-gray-50 flex items-center justify-center mb-5">
                   <obj.icon className="w-5 h-5 text-gray-700" />
                 </div>
@@ -114,9 +114,9 @@ export default function AboutPage() {
               The experienced leaders guiding IEMCEDS towards excellence.
             </p>
           </div>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 stagger-children">
+          <div className="flex flex-wrap justify-center gap-8 stagger-children">
             {leaders.map((leader) => (
-              <div key={leader.id} className="text-center p-8 rounded-2xl border border-gray-100 bg-white card-hover">
+              <div key={leader.id} className="w-full md:w-[calc(33.333%-21.33px)] text-center p-8 rounded-2xl border border-gray-100 bg-white card-hover">
                 <div className="w-28 h-28 mx-auto mb-5 rounded-full overflow-hidden bg-gray-100">
                   {leader.image ? (
                     <img src={leader.image} alt={leader.name} className="w-full h-full object-cover" />
@@ -135,22 +135,7 @@ export default function AboutPage() {
         </div>
       </section>
 
-      {/* Location */}
-      <section className="py-16 bg-gray-50">
-        <div className="container-main">
-          <div className="flex flex-col md:flex-row items-center gap-8 max-w-2xl mx-auto">
-            <div className="w-14 h-14 rounded-2xl bg-gray-100 flex items-center justify-center flex-shrink-0">
-              <MapPin className="w-6 h-6 text-gray-600" />
-            </div>
-            <div>
-              <h3 className="text-lg font-semibold text-gray-900 mb-1">Visit Us</h3>
-              <p className="text-sm text-gray-500">
-                IEM Campus, Management House, Gurukul, Salt Lake Electronics Complex, Sector V, Bidhannagar, Kolkata, West Bengal 700091
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
+
     </>
   )
 }

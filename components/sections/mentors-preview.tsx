@@ -163,7 +163,7 @@ function ExMentorsSection({ mentors }: { mentors: Mentor[] }) {
         <div className="flex-1 h-px" style={{ background: 'var(--border)' }} />
         <div className="text-center">
           <h3 className="text-[1.5rem] font-bold" style={{ color: 'var(--foreground)' }}>
-            Ex. Mentors
+            Ex. Members
           </h3>
         </div>
         <div className="flex-1 h-px" style={{ background: 'var(--border)' }} />
