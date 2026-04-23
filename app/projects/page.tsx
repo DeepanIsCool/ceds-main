@@ -43,7 +43,7 @@ interface Dataset {
 export default function ProjectsPage() {
   const [projects, setProjects] = useState<Project[]>([])
   const [datasets, setDatasets] = useState<Dataset[]>([])
-  const [activeTab, setActiveTab] = useState<'ongoing' | 'completed' | 'collaborative' | 'grant-in-aid'>('ongoing')
+  const [activeTab, setActiveTab] = useState<'collaborative' | 'grant-in-aid' | 'ongoing'>('collaborative')
 
   useEffect(() => {
     fetch('/data/projects.json')
@@ -57,8 +57,8 @@ export default function ProjectsPage() {
   }, [])
 
   const filtered = projects.filter((p) => {
-    if (activeTab === 'ongoing' || activeTab === 'completed') {
-      return p.status === activeTab
+    if (activeTab === 'ongoing') {
+      return p.status === 'ongoing'
     }
     return p.type === activeTab
   })
@@ -87,13 +87,14 @@ export default function ProjectsPage() {
 
           {/* Tabs */}
           <div className="flex gap-1 mb-10 bg-gray-100 rounded-xl p-1 w-fit flex-wrap">
-            {(['ongoing', 'completed', 'collaborative', 'grant-in-aid'] as const).map((tab) => {
+            {(['collaborative', 'grant-in-aid', 'ongoing'] as const).map((tab) => {
               let label = tab.charAt(0).toUpperCase() + tab.slice(1);
               if (tab === 'collaborative') label = 'Collaborative Projects';
               if (tab === 'grant-in-aid') label = 'Grant-in-Aid Projects';
+              if (tab === 'ongoing') label = 'Other Projects';
               
               const count = projects.filter((p) => {
-                if (tab === 'ongoing' || tab === 'completed') return p.status === tab;
+                if (tab === 'ongoing') return p.status === 'ongoing';
                 return p.type === tab;
               }).length;
 
