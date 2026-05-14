@@ -55,16 +55,13 @@ export default function AboutCeds() {
       <div className="container-main">
         {/* Header */}
         <div className="text-center mb-20 reveal">
-          <p className="eyebrow mb-4">About Us</p>
           <h2 className="heading-display text-[clamp(2rem,4.5vw,3.25rem)] mb-6">
-            Our Mission
+            Our Vision
           </h2>
           <p className="text-muted-foreground text-[0.9375rem] leading-[1.9] max-w-[64ch] mx-auto">
-            The Centre of Excellence in Data Science was established with the goal of exploring cutting edge technologies
-            such as Artificial Intelligence, Machine Learning, Computer Vision, Natural Language Processing, Computational
-            Biology and so on. The centre aims to setup a high-performance computing laboratory to produce top quality
-            publications and patents along with promotion of industry – academia relations and inter-disciplinary
-            collaborations with reputed national and international organizations.
+            To be recognized as a premier research and development unit that bridges the industry and academia to produce
+            a generation of data-scientists who are equipped with the skills, values and passion for innovation, driving
+            forward the frontiers of data-driven decision-making on a global scale.
           </p>
         </div>
 
