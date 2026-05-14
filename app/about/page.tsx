@@ -13,8 +13,15 @@ interface Leader {
 }
 
 const mission = {
-  title: 'Our Mission',
-  text: 'IEM Centre for Excellence in Data Science (IEMCEDS) is dedicated to advancing research and innovation in data science, machine learning, and artificial intelligence. We aim to bridge the gap between academic research and real-world application, fostering a culture of excellence and collaboration.',
+  title: 'Mission',
+  points: [
+    'To promote academia–industry collaboration',
+    'To develop end-to-end data science solutions',
+    'To enable data acquisition, annotation, and management',
+    'Advance analytics, interpretation, and predictive modeling',
+    'Support real-world decision-making through data insights',
+    'Address current and future technological challenges',
+  ],
 }
 
 const objectives = [
@@ -75,9 +82,26 @@ export default function AboutPage() {
       {/* Mission */}
       <section className="section-padding bg-white" style={{ backgroundImage: 'url(/images/bg-pattern-topo.png)', backgroundSize: 'auto', backgroundRepeat: 'repeat', backgroundPosition: 'top left' }}>
         <div className="container-main">
-          <div className="max-w-3xl mx-auto text-center">
-            <h2 className="text-3xl font-bold text-gray-900 mb-6 tracking-tight">{mission.title}</h2>
-            <p className="text-gray-500 text-lg leading-relaxed">{mission.text}</p>
+          <h2 className="text-3xl font-bold text-gray-900 mb-12 tracking-tight text-center">{mission.title}</h2>
+          <div className="flex flex-col gap-5 max-w-4xl mx-auto">
+            {mission.points.map((point, i) => {
+              const isEven = i % 2 === 1
+              return (
+                <div
+                  key={i}
+                  className={`flex items-center gap-4 w-[80%] ${isEven ? 'self-end flex-row-reverse' : 'self-start'}`}
+                >
+                  {/* Number badge */}
+                  <span className="flex-shrink-0 w-10 h-10 rounded-full bg-blue-600 text-white font-bold text-sm flex items-center justify-center shadow-md">
+                    {i + 1}
+                  </span>
+                  {/* Card */}
+                  <div className="flex-1 px-6 py-4 rounded-xl bg-gray-50 border-2 border-dashed border-blue-400 text-gray-700 font-medium text-[0.9375rem] leading-relaxed hover:bg-blue-50 transition-colors duration-200">
+                    {point}
+                  </div>
+                </div>
+              )
+            })}
           </div>
         </div>
       </section>
