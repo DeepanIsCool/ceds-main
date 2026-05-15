@@ -10,21 +10,29 @@
   {
     "id": 2,
     "name": "Prof. (Dr.) Satyajit Chakrabarti",
-    "position": "Director",
-    "department": "IEM-UEM Group",
+    "position": "Vice Chancellor",
+    "department": "UEM Kolkata",
     "bio": "Directing the strategic initiatives and academic programs across the group.",
     "image": "/data/images/Prof Dr Satyajit C.jpg"
   },
   {
     "id": 3,
     "name": "Prof. (Dr.) Amartya Mukherjee",
-    "position": "Convener",
+    "position": "Secretary",
     "department": "HOD, Dept. of CSE(AIML), CSBS",
     "bio": "Leading the Department of Computer Science and Engineering (AIML) division.",
     "image": "/data/images/Amartya Mukherjee.jpg"
   },
   {
     "id": 4,
+    "name": "Prof. (Dr.) Ayan Kumar Panja",
+    "position": "Convenor",
+    "department": "Asst. HOD, Dept. of CSE(AIML), CSBS",
+    "bio": "",
+    "image": "/data/images/Ayan Panja.jpg"
+  },
+  {
+    "id": 5,
     "name": "Prof. (Dr.) Subhadip Chandra",
     "position": "Centre-In-Charge",
     "department": "Asst. Prof, Dept. of CSE(AIML), CSBS",
@@ -32,7 +40,7 @@
     "image": "/data/images/g12169sc (2) - subhadip chandra.jpg"
   },
   {
-    "id": 5,
+    "id": 6,
     "name": "Prof. Ankita Ray Chowdhury",
     "position": "Coordinator",
     "department": "Asst. Prof, Dept. of CSE(AIML), CSBS",
