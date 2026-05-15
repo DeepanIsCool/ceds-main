@@ -13,8 +13,8 @@ const leaders = [
   },
   {
     name: 'Prof. (Dr.) Satyajit Chakrabarti',
-    role: 'Director',
-    department: 'Director, IEM-UEM Group',
+    role: 'Vice Chancellor',
+    department: 'Vice Chancellor, UEM Kolkata',
     image: '/data/images/Prof Dr Satyajit C.jpg',
     featured: true,
   },

@@ -71,16 +71,6 @@
   },
   {
     "id": 8,
-    "name": "Prof. (Dr.) Rakesh Das",
-    "email": "rakesh.das@iem.edu.in",
-    "contact": "7059070278",
-    "linkedin": "",
-    "expertise": "Quantum Computing",
-    "status": "mentor",
-    "image": "/data/images/G1251RD - Rakesh Das.jpg"
-  },
-  {
-    "id": 9,
     "name": "Prof. (Dr.) Sukanya Mitra",
     "email": "mitrasukanya88@gmail.com",
     "contact": "",
@@ -90,7 +80,7 @@
     "image": "/data/images/9 - Dr. Sukanya Mitra.jpg"
   },
   {
-    "id": 10,
+    "id": 9,
     "name": "Prof. Dr. Piyali Datta",
     "email": "piyali.datta@iem.edu.in",
     "contact": "7866038980",
@@ -100,7 +90,7 @@
     "image": "/data/images/image - Piyali Datta.jpeg"
   },
   {
-    "id": 11,
+    "id": 10,
     "name": "Prof. Bibekananda Kundu",
     "email": "bibekanandakundu.iem@gmail.com",
     "contact": "",
@@ -110,7 +100,7 @@
     "image": "/data/images/Bibekananda.jpg"
   },
   {
-    "id": 12,
+    "id": 11,
     "name": "Prof. (Dr.) Chandrima Thakur",
     "email": "chandrima.thakur@iem.edu.in",
     "contact": "",
@@ -120,7 +110,7 @@
     "image": "/data/images/Chandrima.jpg"
   },
   {
-    "id": 13,
+    "id": 12,
     "name": "Prof. Saugata Ghosh",
     "email": "saugata.ghosh@iem.edu.in",
     "contact": "8017024589",
@@ -130,7 +120,7 @@
     "image": "/data/images/SAUGATA GHOSH .JPG - Saugata Ghosh.jpg"
   },
   {
-    "id": 14,
+    "id": 13,
     "name": "Prof. (Dr.) Somenath Kuiry",
     "email": "somenath.kuiry@iem.edu.in",
     "contact": "7478476819",
@@ -140,7 +130,7 @@
     "image": "/data/images/self - Somenath kuiry.png"
   },
   {
-    "id": 15,
+    "id": 14,
     "name": "Prof. (Dr.) Sreya Ghosh",
     "email": "",
     "contact": "",
@@ -150,7 +140,7 @@
     "image": "/data/images/SreyaGhosh.jpg"
   },
   {
-    "id": 16,
+    "id": 15,
     "name": "Prof. (Dr.) Swarnendu Ghosh",
     "email": "swarnendu.ghosh@iem.edu.in",
     "contact": "",
