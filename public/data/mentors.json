@@ -41,6 +41,16 @@
   },
   {
     "id": 5,
+    "name": "Prof. Dr. Piyali Datta",
+    "email": "piyali.datta@iem.edu.in",
+    "contact": "7866038980",
+    "linkedin": "",
+    "expertise": "Machine Learning and applications, Computer Vision, Human Computer Interaction",
+    "status": "mentor",
+    "image": "/data/images/image - Piyali Datta.jpeg"
+  },
+  {
+    "id": 6,
     "name": "Prof. (Dr.) Manjarini Mallik",
     "email": "Manjarini.Mallik@iem.edu.in",
     "contact": "8583973399",
@@ -50,7 +60,7 @@
     "image": "/data/images/Manjarini - Manjarini Mallik.png"
   },
   {
-    "id": 6,
+    "id": 7,
     "name": "Prof. Pabak Indu",
     "email": "pabak.indu@iem.edu.in",
     "contact": "9433573529",
@@ -60,7 +70,7 @@
     "image": "/data/images/G12174PI - pabak indu.jpg"
   },
   {
-    "id": 7,
+    "id": 8,
     "name": "Prof. (Dr.) Swati Chowdhuri",
     "email": "swati.chowdhuri@iem.edu.in",
     "contact": "8617208474",
@@ -70,7 +80,7 @@
     "image": "/data/images/S Chowdhuri - Swati Chowdhuri.jpg"
   },
   {
-    "id": 8,
+    "id": 9,
     "name": "Prof. (Dr.) Sukanya Mitra",
     "email": "mitrasukanya88@gmail.com",
     "contact": "",
@@ -78,16 +88,6 @@
     "expertise": "Computer Vision, Signal Processing, Artificial Intelligence, Condition Monitoring",
     "status": "mentor",
     "image": "/data/images/9 - Dr. Sukanya Mitra.jpg"
-  },
-  {
-    "id": 9,
-    "name": "Prof. Dr. Piyali Datta",
-    "email": "piyali.datta@iem.edu.in",
-    "contact": "7866038980",
-    "linkedin": "",
-    "expertise": "Machine Learning and applications, Computer Vision, Human Computer Interaction",
-    "status": "mentor",
-    "image": "/data/images/image - Piyali Datta.jpeg"
   },
   {
     "id": 10,

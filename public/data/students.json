@@ -22,23 +22,9 @@
     "email": "supratikbhowal23@gmail.com",
     "contact": "6289552885",
     "image": "/data/images/interns/Profile Photo (Preferred format_ PNG) (File responses)/Screenshot 2026-03-19 233556 - Supratik Bhowal.png",
-    "status": "intern",
+    "status": "member",
     "github": "https://github.com/SupratikB23/",
     "linkedin": "https://www.linkedin.com/in/supratik-bhowal-b58906319/",
-    "mentor": "Prof. (Dr.) Mousumi Laha"
-  },
-  {
-    "id": 3,
-    "name": "Sishir Gope",
-    "year": "2nd Year",
-    "branch": "CSE AIML",
-    "researchArea": "Advanced Driver Assistance Systems (ADAS)",
-    "email": "sishir211004@gmail.com",
-    "contact": "6289390556",
-    "image": "/data/images/interns/Profile Photo (Preferred format_ PNG) (File responses)/profilepic - Sishir Gope (shiroi_Raven).png",
-    "status": "intern",
-    "github": "https://github.com/SishirxGope",
-    "linkedin": "https://www.linkedin.com/in/sishir-gope-9082b931a/",
     "mentor": "Prof. (Dr.) Mousumi Laha"
   },
   {
@@ -50,7 +36,7 @@
     "email": "www.dipanjanbasak@gmail.com",
     "contact": "6294145669",
     "image": "/data/images/interns/Profile Photo (Preferred format_ PNG) (File responses)/IMG_20251215_220014 (1) - Dipanjan Basak.png",
-    "status": "intern",
+    "status": "member",
     "github": "https://github.com/DipanjanBasak-git",
     "linkedin": "https://www.linkedin.com/in/dipanjan-basak-49bb59280/",
     "mentor": "Prof. (Dr.) Subhadip Chandra"
@@ -64,10 +50,24 @@
     "email": "debosmitasamanta23@gmail.com",
     "contact": "7003880391",
     "image": "/data/images/interns/Profile Photo (Preferred format_ PNG) (File responses)/deb pic - Debosmita Samanta.png",
-    "status": "intern",
+    "status": "member",
     "github": "https://github.com/debosmita-S",
     "linkedin": "https://www.linkedin.com/in/debosmita-samanta-engg/",
     "mentor": "Prof. (Dr.) Subhadip Chandra"
+  },
+  {
+    "id": 3,
+    "name": "Sishir Gope",
+    "year": "2nd Year",
+    "branch": "CSE AIML",
+    "researchArea": "Advanced Driver Assistance Systems (ADAS)",
+    "email": "sishir211004@gmail.com",
+    "contact": "6289390556",
+    "image": "/data/images/interns/Profile Photo (Preferred format_ PNG) (File responses)/profilepic - Sishir Gope (shiroi_Raven).png",
+    "status": "member",
+    "github": "https://github.com/SishirxGope",
+    "linkedin": "https://www.linkedin.com/in/sishir-gope-9082b931a/",
+    "mentor": "Prof. (Dr.) Mousumi Laha"
   },
   {
     "id": 6,
@@ -78,7 +78,7 @@
     "email": "iamalekhya7@gmail.com",
     "contact": "9476492909",
     "image": "/data/images/interns/Profile Photo (Preferred format_ PNG) (File responses)/IMG-20250119-WA0002 - Alekhya Gangopadhyay.jpg",
-    "status": "intern",
+    "status": "member",
     "github": "https://github.com/AlekhyaGangopadhyay",
     "linkedin": "https://www.linkedin.com/in/alekhya-gangopadhyay-5a199a320",
     "mentor": "Prof. (Dr.) Subhadip Chandra"
@@ -92,7 +92,7 @@
     "email": "palmainakmax@gmail.com",
     "contact": "7318614191",
     "image": "/data/images/interns/Profile Photo (Preferred format_ PNG) (File responses)/Mainak pic 2 - Mainak Pal.jpg",
-    "status": "member",
+    "status": "intern",
     "github": "https://github.com/mainakpal4",
     "linkedin": "https://www.linkedin.com/in/mainak-pal-abcdefg/",
     "mentor": "Prof. Ankita Raychowdhury"
@@ -106,7 +106,7 @@
     "email": "rohanbose2005@gmail.com",
     "contact": "6289316766",
     "image": "/data/images/interns/Profile Photo (Preferred format_ PNG) (File responses)/Screenshot_2026-03-20-04-23-31-48_6012fa4d4ddec268fc5c7112cbb265e7 - D_48_Rohan Bose.jpg",
-    "status": "member",
+    "status": "intern",
     "github": "",
     "linkedin": "",
     "mentor": "Prof. (Dr.) Subhadip Chandra"
@@ -120,7 +120,7 @@
     "email": "aharshisinha2020@gmail.com",
     "contact": "9051861747",
     "image": "/data/images/interns/Profile Photo (Preferred format_ PNG) (File responses)/Screenshot_2026-02-04-07-25-11-032_com.linkedin.android-edit - Aharshi Sinha.jpg",
-    "status": "member",
+    "status": "intern",
     "github": "",
     "linkedin": "https://www.linkedin.com/in/aharshi-sinha-16039928b",
     "mentor": "Prof. Ankita Ray Chowdhury"
@@ -204,7 +204,7 @@
     "email": "snehaachanda8@gmail.com",
     "contact": "6291539265",
     "image": "/data/images/interns/Profile Photo (Preferred format_ PNG) (File responses)/sneha_chanda - Sneha Chanda.png",
-    "status": "member",
+    "status": "intern",
     "github": "https://github.com/snehachanda0801",
     "linkedin": "https://www.linkedin.com/in/sneha-chanda-656766293",
     "mentor": "Prof. (Dr.) Subhadip Chandra"
@@ -274,7 +274,7 @@
     "email": "ayish2025mitra@gmail.com",
     "contact": "8777057026",
     "image": "/data/images/interns/Profile Photo (Preferred format_ PNG) (File responses)/Screenshot_20240601_221132_WhatsApp - Ayisharya Mitra.jpg",
-    "status": "member",
+    "status": "intern",
     "github": "https://www.github.com/Ayisharya",
     "linkedin": "https://www.linkedin.com/in/ayisharya-mitra-8143ba311",
     "mentor": "Prof. (Dr.) Sukanya Mitra"
@@ -288,7 +288,7 @@
     "email": "rudravatripathi123@gmail.com",
     "contact": "6290451254",
     "image": "/data/images/interns/Profile Photo (Preferred format_ PNG) (File responses)/Rudrava_Pic - AIML_58_Rudrava Tripathi.png",
-    "status": "member",
+    "status": "intern",
     "github": "https://github.com/rudrava12",
     "linkedin": "https://www.linkedin.com/in/rudrava-tripathi-742853267",
     "mentor": "Prof. (Dr.) Sukanya Mitra"
@@ -302,7 +302,7 @@
     "email": "sumit891084@gmail.com",
     "contact": "8910846102",
     "image": "/data/images/interns/Profile Photo (Preferred format_ PNG) (File responses)/IMG_20260323_204320 - AIML_06_Sumit Chatterjee.jpg",
-    "status": "member",
+    "status": "intern",
     "github": "",
     "linkedin": "https://www.linkedin.com/in/sumit-chatterjee-7a8b1128a",
     "mentor": "Prof. (Dr.) Sukanya Mitra"
@@ -414,7 +414,7 @@
     "email": "debanuguhathakurta@gmail.com",
     "contact": "8585078760",
     "image": "/data/images/interns/Profile Photo (Preferred format_ PNG) (File responses)/DEBANU GUHA THAKURTA - Debanu Guha Thakurta.png",
-    "status": "member",
+    "status": "intern",
     "github": "https://github.com/Debanu07",
     "linkedin": "https://www.linkedin.com/in/debanu-guha-thakurta-2ba022377",
     "mentor": "Ankita Roy Chowdhury"
@@ -428,7 +428,7 @@
     "email": "ankitasadhukhan40@gmail.com",
     "contact": "7908653077",
     "image": "/data/images/interns/Profile Photo (Preferred format_ PNG) (File responses)/image - Ankita Sadhukhan.jpg",
-    "status": "intern",
+    "status": "member",
     "github": "https://github.com/ankitasadhukhan40-collab",
     "linkedin": "https://in.linkedin.com/in/ankita-sadhukhan-519243294",
     "mentor": "Prof. Dr. Anindita Das Bhattacharya"
@@ -456,7 +456,7 @@
     "email": "menhazul12345@gmail.com",
     "contact": "8910498441",
     "image": "/data/images/interns/Profile Photo (Preferred format_ PNG) (File responses)/IMG_20250404_094556 - Menhazul Abdin.png",
-    "status": "member",
+    "status": "intern",
     "github": "https://github.com/Menhaz36",
     "linkedin": "https://www.linkedin.com/in/menhaz0360",
     "mentor": "Prof. Bibekananda Kundu"
@@ -470,7 +470,7 @@
     "email": "ruchikasharma030504@gmail.com",
     "contact": "6200529849",
     "image": "/data/images/interns/Profile Photo (Preferred format_ PNG) (File responses)/Screenshot 2025-06-21 at 4.19.43 PM - Ruchika Sharma.png",
-    "status": "member",
+    "status": "intern",
     "github": "https://github.com/rshar3132",
     "linkedin": "https://www.linkedin.com/in/ruchikasharma-ru1",
     "mentor": "Prof. Bibekananda Kundu"
@@ -484,7 +484,7 @@
     "email": "aniruddhaghosh8787@gmail.com",
     "contact": "",
     "image": "/data/images/interns/Profile Photo (Preferred format_ PNG) (File responses)/me_prof (1) - Aniruddha Ghosh.jpg",
-    "status": "member",
+    "status": "intern",
     "github": "https://github.com/AniruddhaGhosh64",
     "linkedin": "https://www.linkedin.com/in/aniruddha-ghosh-035a6728a/",
     "mentor": "Prof. Ankita Ray Chowdhury"
@@ -498,7 +498,7 @@
     "email": "chaudhuryaniruddha56@gmail.com",
     "contact": "9088923831",
     "image": "/data/images/interns/Profile Photo (Preferred format_ PNG) (File responses)/12024052016060 - Aniruddha Chaudhury.jpg",
-    "status": "intern",
+    "status": "member",
     "github": "https://github.com/AniruddhaChaudhury2006",
     "linkedin": "https://www.linkedin.com/in/aniruddha-chaudhury-a91098321",
     "mentor": "Prof. (Dr.) Manjarini Mallik"
@@ -512,7 +512,7 @@
     "email": "ribhvan102938@gmail.com",
     "contact": "9748630338",
     "image": "/data/images/interns/Profile Photo (Preferred format_ PNG) (File responses)/ribhvan - Ribhvan Pal.png",
-    "status": "member",
+    "status": "intern",
     "github": "https://github.com/RibhvanPal",
     "linkedin": "https://www.linkedin.com/in/ribhvan-pal-28762028b/",
     "mentor": "Prof. Ankita Ray Chowdhury"
@@ -526,7 +526,7 @@
     "email": "saumydip.das@gmail.com",
     "contact": "8768439105",
     "image": "/data/images/interns/Profile Photo (Preferred format_ PNG) (File responses)/12023052016027 - O-57 -saumyadip das.jpg",
-    "status": "member",
+    "status": "intern",
     "github": "https://github.com/Saumyadip2004",
     "linkedin": "https://www.linkedin.com/in/saumyadip-das-64a75a292",
     "mentor": "Ankita Roychowdhury"
@@ -540,7 +540,7 @@
     "email": "sahanasamanta31@gmail.com",
     "contact": "8918720705",
     "image": "/data/images/interns/Profile Photo (Preferred format_ PNG) (File responses)/my pic 2 - Sahana Samanta.jpg",
-    "status": "member",
+    "status": "intern",
     "github": "https://github.com/sahanasamanta",
     "linkedin": "https://in.linkedin.com/in/sahana-samanta-7b6abb28a",
     "mentor": "Prof. (Dr.) Subhadip Chandra"
@@ -554,7 +554,7 @@
     "email": "sahasristi2004@gmail.com",
     "contact": "9874153225",
     "image": "/data/images/interns/Profile Photo (Preferred format_ PNG) (File responses)/profilepic - Sristi Saha.png",
-    "status": "member",
+    "status": "intern",
     "github": "https://github.com/sristisaha009",
     "linkedin": "https://www.linkedin.com/in/sristi-saha-91604528b/",
     "mentor": "Prof. (Dr.) Subhadip Chandra"
