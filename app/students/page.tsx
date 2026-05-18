@@ -1,7 +1,7 @@
 'use client'
 
 import { useEffect, useState } from 'react'
-import { Mail, GraduationCap, Briefcase, X } from 'lucide-react'
+import { Mail, GraduationCap, Briefcase, X, UserCheck } from 'lucide-react'
 
 interface Student {
   id: number
@@ -12,6 +12,9 @@ interface Student {
   email: string
   image: string
   status: 'member' | 'intern'
+  mentor?: string
+  github?: string
+  linkedin?: string
 }
 
 export default function StudentsPage() {
@@ -119,6 +122,12 @@ export default function StudentsPage() {
                       <Briefcase className="w-3.5 h-3.5 flex-shrink-0" />
                       <span className="truncate">{student.researchArea}</span>
                     </div>
+                    {student.mentor && (
+                      <div className="flex items-center gap-1.5 text-xs text-gray-500 mt-1">
+                        <UserCheck className="w-3.5 h-3.5 flex-shrink-0 text-primary" />
+                        <span className="truncate font-medium">{student.mentor}</span>
+                      </div>
+                    )}
                   </div>
                 </div>
 
@@ -211,6 +220,21 @@ export default function StudentsPage() {
                   <p className="text-sm font-medium text-gray-900 leading-relaxed">{selectedStudent.researchArea}</p>
                 </div>
               </div>
+
+              {selectedStudent.mentor && (
+                <>
+                  <div className="w-full h-px bg-gray-200" />
+                  <div className="flex items-start gap-3">
+                    <div className="w-8 h-8 rounded-full bg-white flex items-center justify-center shadow-sm flex-shrink-0">
+                      <UserCheck className="w-4 h-4 text-primary" />
+                    </div>
+                    <div>
+                      <p className="text-xs font-semibold text-gray-400 uppercase tracking-wider mb-0.5">Mentor</p>
+                      <p className="text-sm font-medium text-gray-900">{selectedStudent.mentor}</p>
+                    </div>
+                  </div>
+                </>
+              )}
 
               {selectedStudent.email && (
                 <>
