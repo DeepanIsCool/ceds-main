@@ -14,6 +14,26 @@ interface Mentor {
   image: string
 }
 
+const mentorOrder = [
+  'Prof. (Dr.) Amartya Mukherjee',
+  'Prof. Dr. Ayan Kumar Panja',
+  'Prof. (Dr.) Subhadip Chandra',
+  'Prof. Ankita Ray Chowdhury',
+]
+
+function sortByPreferredMentorOrder(mentors: Mentor[]) {
+  return [...mentors].sort((left, right) => {
+    const leftIndex = mentorOrder.indexOf(left.name)
+    const rightIndex = mentorOrder.indexOf(right.name)
+
+    if (leftIndex === -1 && rightIndex === -1) return 0
+    if (leftIndex === -1) return 1
+    if (rightIndex === -1) return -1
+
+    return leftIndex - rightIndex
+  })
+}
+
 export default function MentorsPreview() {
   const [mentors, setMentors] = useState<Mentor[]>([])
   const revealRef = useReveal([mentors])
@@ -25,7 +45,9 @@ export default function MentorsPreview() {
       .catch(() => {})
   }, [])
 
-  const featured = mentors.filter((m) => m.status === 'mentor').slice(0, 4)
+  const featured = sortByPreferredMentorOrder(
+    mentors.filter((m) => m.status === 'mentor')
+  ).slice(0, 4)
 
   if (featured.length === 0) return null
 
