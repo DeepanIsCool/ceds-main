@@ -16,10 +16,10 @@ interface Mentor {
 
 const mentorOrder = [
   'Prof. (Dr.) Amartya Mukherjee',
-  'Prof. Dr. Ayan Kumar Panja',
+  'Prof. (Dr.) Ayan Kumar Panja',
   'Prof. (Dr.) Subhadip Chandra',
   'Prof. Ankita Ray Chowdhury',
-  'Prof. Dr. Piyali Datta',
+  'Prof. (Dr.) Piyali Datta',
   'Prof. (Dr.) Sukanya Mitra',
   'Prof. (Dr.) Chandrima Thakur',
   'Prof. (Dr.) Swati Chowdhuri',
