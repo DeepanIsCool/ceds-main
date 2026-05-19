@@ -19,6 +19,14 @@ const mentorOrder = [
   'Prof. Dr. Ayan Kumar Panja',
   'Prof. (Dr.) Subhadip Chandra',
   'Prof. Ankita Ray Chowdhury',
+  'Prof. Dr. Piyali Datta',
+  'Prof. (Dr.) Sukanya Mitra',
+  'Prof. (Dr.) Chandrima Thakur',
+  'Prof. (Dr.) Swati Chowdhuri',
+  'Prof. (Dr.) Manjarini Mallik',
+  'Prof. Pabak Indu',
+  'Prof. Bibekananda Kundu',
+  'Prof. Saugata Ghosh',
 ]
 
 function sortByPreferredMentorOrder(mentors: Mentor[]) {
