@@ -1,1 +1,47 @@
-[]
+[
+	{
+		"id": 1,
+		"title": "HiLEx: Image-Based Hierarchical Layout Extraction from Question Papers",
+		"type": "Conference paper",
+		"authors": ["Utathya Aich", "Shinjini Chakraborty", "Deepan Sadhukhan", "Swarnendu Ghosh", "Tulika Saha"],
+		"venue": "ICDAR",
+		"year": 2025,
+		"doi": "https://doi.org/10.1007/978-3-032-04627-7_28"
+	},
+	{
+		"id": 2,
+		"title": "Deep Learning Aided Automated Blood Cell Counting Framework Using Microscopic Blood Smear Images",
+		"type": "Conference paper",
+		"authors": ["Aniruddha Bera", "Rudrava Tripathi", "Pradipta Chakrabarty", "Sukanya Mitra", "Sayanjit Singha Roy", "Soumya Chatterjee"],
+		"venue": "IEEE",
+		"year": 2025,
+		"doi": "10.1109/ASPCON66877.2025.11389526"
+	},
+	{
+		"id": 3,
+		"title": "HistoCNN: A Light Weight Convolutional Neural Network for Automated Lung Cancer Detection Using Histopathological Images",
+		"type": "Conference paper",
+		"authors": ["Rudrava Tripathi", "Aniruddha Bera", "Pradipta Chakrabarty", "Sukanya Mitra", "Sayanjit Singha Roy", "Soumya Chatterjee"],
+		"venue": "IEEE",
+		"year": 2025,
+		"doi": "10.1109/UPCON66414.2025.11453710"
+	},
+	{
+		"id": 4,
+		"title": "Non-Invasive Automated Anaemia Detection Framework From Eye Conjunctiva Images Using YOLOv8",
+		"type": "Conference paper",
+		"authors": ["Pradipta Chakrabarty", "Aniruddha Bera", "Rudrava Tripathi", "Sukanya Mitra", "Sayanjit Singha Roy", "Soumya Chatterjee"],
+		"venue": "IEEE",
+		"year": 2025,
+		"doi": "10.1109/UPCON66414.2025.11454042"
+	},
+	{
+		"id": 5,
+		"title": "Exploring Machine Learning Approaches for Diagnosing Autism Spectrum Disorder: Insights from Clinical and Technological Approaches",
+		"type": "Conference paper",
+		"authors": ["Debosmita Samanta", "Dipanjan Basak", "Shinjan Bhatta", "Joydeep Sarkar", "Mekhla Sen", "Subhadip Chandra", "Piyali Datta"],
+		"venue": "IEEE",
+		"year": 2025,
+		"doi": "https://doi.org/10.1109/IEEECONF64992.2025.10963004"
+	}
+]
