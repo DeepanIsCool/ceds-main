@@ -122,7 +122,7 @@ export default function StudentsPage() {
                     : 'text-gray-500 hover:text-gray-700'
                 }`}
               >
-                {tab === 'member' ? 'Members' : 'Interns'}
+                {tab === 'member' ? 'Members' : 'Interns Lists'}
                 <span className="ml-2 text-xs text-gray-400">
                   ({tab === 'member' ? students.length : 2})
                 </span>
