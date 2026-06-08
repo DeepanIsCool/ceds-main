@@ -138,9 +138,9 @@ export default function AboutPage() {
               The experienced leaders guiding IEMCEDS towards excellence.
             </p>
           </div>
-          <div className="flex flex-wrap justify-center gap-8 stagger-children">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 stagger-children">
             {leaders.map((leader) => (
-              <div key={leader.id} className="w-full md:w-[calc(33.333%-21.33px)] text-center p-8 rounded-2xl border border-gray-100 bg-white card-hover">
+              <div key={leader.id} className="w-full text-center p-8 rounded-2xl border border-gray-100 bg-white card-hover">
                 <div className="w-28 h-28 mx-auto mb-5 rounded-full overflow-hidden bg-gray-100">
                   {leader.image ? (
                     <img src={leader.image} alt={leader.name} className="w-full h-full object-cover" />

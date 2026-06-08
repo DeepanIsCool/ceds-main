@@ -77,9 +77,78 @@ export default function StudentsPage() {
       // @ts-ignore
       const wb = XLSX.read(new Uint8Array(arr), { type: 'array' })
       const first = wb.SheetNames[0]
+      // try to parse rows to create a nicer preview grouped by faculty/mentor
       // @ts-ignore
-      const html = XLSX.utils.sheet_to_html(wb.Sheets[first])
-      setPreviewHtml(html)
+      const sheet = wb.Sheets[first]
+      // @ts-ignore
+      const rows: any[] = XLSX.utils.sheet_to_json(sheet, { defval: '' })
+
+      const escapeHtml = (str: any) => String(str)
+        .replace(/&/g, '&amp;')
+        .replace(/</g, '&lt;')
+        .replace(/>/g, '&gt;')
+        .replace(/"/g, '&quot;')
+        .replace(/'/g, '&#39;')
+
+      if (Array.isArray(rows) && rows.length > 0 && typeof rows[0] === 'object') {
+        const headers = Object.keys(rows[0])
+        const findKey = (r: RegExp) => headers.find((h) => r.test(String(h).toLowerCase()))
+
+        const facultyKey = findKey(/faculty|mentor|supervisor|guide|prof|advisor|advisor name/)
+        const studentKey = findKey(/name|student|full name|student name|participant/)
+        const streamKey = findKey(/stream|branch|dept|department|course/i)
+        const yearKey = findKey(/year|class|batch|graduation/i)
+
+        // Group rows by faculty (or single group if none)
+        const groups: Record<string, any[]> = {}
+        rows.forEach((r) => {
+          const faculty = facultyKey ? (r[facultyKey] || '').toString().trim() : ''
+          const student = studentKey ? (r[studentKey] || '').toString().trim() : ''
+          const stream = streamKey ? (r[streamKey] || '').toString().trim() : ''
+          const year = yearKey ? (r[yearKey] || '').toString().trim() : ''
+
+          const groupName = faculty || 'Unassigned'
+          if (!groups[groupName]) groups[groupName] = []
+          // if student field is empty, try to infer from remaining values
+          let studentName = student
+          if (!studentName) {
+            // fall back to first non-empty cell other than faculty
+            for (const k of headers) {
+              if (k === facultyKey) continue
+              const v = (r[k] || '').toString().trim()
+              if (v) { studentName = v; break }
+            }
+          }
+          groups[groupName].push({ student: studentName, stream, year })
+        })
+
+        // Build HTML
+        let html = `<div class="space-y-6">`
+        for (const [faculty, list] of Object.entries(groups)) {
+          html += `<div><h3 style="font-weight:600;margin:0 0 0.25rem 0;">${escapeHtml(faculty)}</h3>`
+          html += '<ul>'
+          list.forEach((it) => {
+            const parts = []
+            if (it.student) parts.push(escapeHtml(it.student))
+            if (it.stream) parts.push(escapeHtml(it.stream))
+            const yearPart = it.year ? ` (${escapeHtml(it.year)})` : ''
+            const line = parts.length ? parts.join(' — ') + yearPart : '&nbsp;'
+            html += `<li style="margin:0.25rem 0;">${line}</li>`
+          })
+          html += '</ul></div>'
+        }
+        html += '</div>'
+
+        setPreviewHtml(html)
+        setPreviewTitle(title)
+        setPreviewOpen(true)
+        return
+      }
+
+      // fallback: raw sheet HTML
+      // @ts-ignore
+      const htmlFallback = XLSX.utils.sheet_to_html(sheet)
+      setPreviewHtml(htmlFallback)
       setPreviewTitle(title)
       setPreviewOpen(true)
     } catch (err) {
